@@ -1,4 +1,5 @@
-let number = 3;
+const prompts = require("promt-sync")();
+let number = promts("Enter the number : ");
 if(number == 1)
 console.log("One");
 else if(number == 2)
