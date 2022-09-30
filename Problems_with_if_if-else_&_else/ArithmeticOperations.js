@@ -1,7 +1,6 @@
-const prompts = require("prompt-sync")();
-let a = prompts("Enter A value : ")
-let b = prompts("Enter B value : ")
-let c = prompts("Enter C value : ")
+let a = 12
+let b = 15
+let c = 8
 a = parseInt(a);
 b = parseInt(b);
 c = parseInt(c);
