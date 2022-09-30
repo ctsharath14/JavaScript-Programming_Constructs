@@ -1,5 +1,4 @@
-const prompts = require("prompt-sync")();
-let number = prompts("Enter a single digit number : ")
+let number = 7
 switch (parseInt(number)) {
     case 1: console.log("One");
         break;
